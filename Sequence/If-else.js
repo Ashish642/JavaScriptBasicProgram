@@ -1,6 +1,6 @@
 console.log("If-else Practice Problem .......");
 // Flip coin  Print Heads or Tails
-let Coin = Math.floor(Math.random() * 2);
+let Coin = Math.floor(Math.random() * 2);    // Genrate random no. b/w 0 &1
 if(Coin==0)
 {
     console.log("Tails");
@@ -43,7 +43,7 @@ const year = 2021;
  // Maximum And Minimum of three digit value
  
    
-let number_1 = Math.floor(Math.random() * 899) + 100;
+let number_1 = Math.floor(Math.random() * 899) + 100;      // To genrate random no.
 let number_2 = Math.floor(Math.random() * 899) + 100;
 let number_3 = Math.floor(Math.random() * 899) + 100;
 let number_4 = Math.floor(Math.random() * 899) + 100;
